@@ -40,7 +40,7 @@ python main.py > list.txt
 以 https://gitaccuacnz2-my.sharepoint.com/:f:/g/personal/mail_finderacg_com/EheQwACFhe9JuGUn4hlg9esBsKyk5jp9-Iz69kqzLLF5Xw?e=FG7SHh 这个下载链接为例
 
 此时需要使用无密码的下载代码，也就是[main.py](../main.py)，打开这个文件，可以看到有一些全局变量：
-* OneDriveShareURL: 下载地址，此处应该填写 https://gitaccuacnz2-my.sharepoint.com/:f:/g/personal/mail_finderacg_com/EheQwACFhe9JuGUn4hlg9esBsKyk5jp9-Iz69kqzLLF5Xw?e=FG7SHh
+* OneDriveShareURL: 下载地址，此处应该填写 https://gwmglobal-my.sharepoint.com/personal/janthima_gwm_co_th/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjanthima%5Fgwm%5Fco%5Fth%2FDocuments%2FRecordings%2FIPSOS%20%28THAILAND%29%20COMPANY%20LIMITED%20Present%20GWM%20Market%20%26%20Brand%20Research%20Project%2D20220107%5F095729%2DMeeting%20Recording%2Emp4&parent=%2Fpersonal%2Fjanthima%5Fgwm%5Fco%5Fth%2FDocuments%2FRecordings
 * aria2Link: aria2 的rpc地址，如果是本机，一般是 `http://localhost:端口号/jsonrpc`
 * aria2Secret: aria2 的密码
 * isDownload: 是否下载，如果是`False`，只输出文件列表
